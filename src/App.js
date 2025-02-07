@@ -1,11 +1,12 @@
 import './App.css';
-import { Icon } from 'react-icons-kit'
-import { home } from 'react-icons-kit/icomoon/home'
+import Experience from './components/Experience';
+// import { Icon } from 'react-icons-kit'
+// import { home } from 'react-icons-kit/icomoon/home'
 
-function App() {
+const App = () => {
   return (
-    <div>
-      <Icon size={32} icon={home} className='p-2 text-red-400'/>
+    <div className='flex justify-center bg-gray-800 items-center w-screen h-screen'>
+      <Experience />
     </div>
   );
 }
